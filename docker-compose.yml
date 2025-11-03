@@ -1,0 +1,7 @@
+services:
+  ws-relay:
+    build: .
+    container_name: ws-relay
+    restart: always
+    ports:
+      - "80:80"
